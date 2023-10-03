@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/$.jsx"],
+  "sourcesContent": ["export async function loader({request}) {\n  throw new Response(`${new URL(request.url).pathname} not found`, {\n    status: 404,\n  });\n}\n\nexport default function CatchAllPage() {\n  return null;\n}\n"],
+  "mappings": "yCAMe,SAARA,GAAgC,CACrC,OAAO,IACT",
+  "names": ["CatchAllPage"]
+}

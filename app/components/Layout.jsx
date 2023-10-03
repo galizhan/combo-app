@@ -12,16 +12,16 @@ import {
 export function Layout({cart, children = null, footer, header, isLoggedIn}) {
   return (
     <>
-      <CartAside cart={cart} />
-      <SearchAside />
-      <MobileMenuAside menu={header.menu} />
-      <Header header={header} cart={cart} isLoggedIn={isLoggedIn} />
+      {/*<CartAside cart={cart} />*/}
+      {/*<SearchAside />*/}
+      {/*<MobileMenuAside menu={header.menu} />*/}
+      {/*<Header header={header} cart={cart} isLoggedIn={isLoggedIn} />*/}
       <main>{children}</main>
-      <Suspense>
-        <Await resolve={footer}>
-          {(footer) => <Footer menu={footer.menu} />}
-        </Await>
-      </Suspense>
+      {/*<Suspense>*/}
+      {/*  <Await resolve={footer}>*/}
+      {/*    {(footer) => <Footer menu={footer.menu} />}*/}
+      {/*  </Await>*/}
+      {/*</Suspense>*/}
     </>
   );
 }

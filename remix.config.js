@@ -18,6 +18,7 @@ module.exports = {
   serverMinify: process.env.NODE_ENV === 'production',
   tailwind: true,
   postcss: true,
+
   future: {
     v2_dev: true,
     v2_meta: true,
